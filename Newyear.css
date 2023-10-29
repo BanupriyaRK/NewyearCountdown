@@ -1,0 +1,83 @@
+*{
+    position: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(NewyearBackground.png);
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+body{
+
+    margin-left: 17%;
+    background: none;
+}
+
+.Newyear{
+    width: 80%;
+    height: 50vh;
+    margin-top: 22%;
+    border-radius: 2px soild ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(new-years-stock-today-151223-tease.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   justify-content:space-evenly;
+}
+h1{
+   margin-left: 250px;
+    background-image: none;
+    width: fit-content;
+        color: white;
+        animation:blink 0.5s linear infinite;
+       font-family: cursive;
+
+}
+@keyframes blink{
+    50% {
+        opacity: 0;
+    }
+}
+#Numberofcounts{
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    font-size: xx-large;
+    color: white;
+    box-shadow: -3px 4px 40px -1px rgba(157,74,74,0.87);
+    -webkit-box-shadow: -3px 4px 40px -1px rgba(157,74,74,0.87);
+    -moz-box-shadow: -3px 4px 40px -1px rgba(157,74,74,0.87);
+}
+#hours{
+    text-align: center;
+    padding: 5px;
+    background: none;
+    background-color: #823038;
+   border: 2px solid pink;
+   border-radius: 50%;
+}
+#days{
+    text-align: center;  
+    padding: 5px;
+    background: none;
+    background-color: #823038;
+   border: 2px solid pink;
+   border-radius: 50%;
+}
+#mintues{
+    text-align: center;
+    padding: 5px;
+    background: none;
+    background-color: #823038;
+   border: 2px solid pink;
+   border-radius: 50%;
+}
+#seconds{
+    text-align: center;
+    padding: 5px;
+    background: none;
+    background-color: #823038;
+   border: 2px solid pink;
+   border-radius: 50%;
+}
